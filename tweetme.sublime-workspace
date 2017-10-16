@@ -1,0 +1,378 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "notes.txt",
+			"settings":
+			{
+				"buffer_size": 4411,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/tweets/urls.py",
+			"settings":
+			{
+				"buffer_size": 265,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/tweets/forms.py",
+			"settings":
+			{
+				"buffer_size": 120,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/tweets/views.py",
+			"settings":
+			{
+				"buffer_size": 1086,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/april/Desktop/fanfanman/tweetme",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweetme",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets"
+	],
+	"file_history":
+	[
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/views.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/tweet_list.html",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/tweet_detail.html",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/detail_view.html",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/list_view.html",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/models.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/delete_confirm.html",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/update_view.html",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/create_view.html",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/urls.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/migrations/urls.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweetme/urls.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/admin.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweetme/views.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweetme/settings/local.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/templates/home.html",
+		"/C/Users/april/Downloads/wire3d_demo.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/static-storage/static/css/custom.css",
+		"/C/Users/april/Desktop/purdue/PHYS580/lab7/capacitor_Jacobi.m",
+		"/C/Users/april/Desktop/purdue/PHYS580/lab7/capacitor_update_Jacobi.m",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweetme/settings/production.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweetme/settings/base.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweetme/settings/__init__.py",
+		"/C/Users/april/Desktop/purdue/PHYS580/lab6/hyperion.m",
+		"/C/Users/april/Desktop/purdue/PHYS580/lab5/two_planets_simulation.m",
+		"/C/Users/april/Desktop/purdue/PHYS580/lab5/planet_EulerCromer.m",
+		"/C/Users/april/Desktop/purdue/PHYS580/lab3/pendulumEuler.m",
+		"/C/Users/april/Desktop/purdue/PHYS580/lab4/pendulumRK2.m",
+		"/C/Users/april/Desktop/purdue/PHYS580/lab1/uranium.m",
+		"/D/iclicker v7.13-Windows/Classes/PHYS172-17fall-Fan/SessionData/L1708301130.xraw",
+		"/C/Users/april/Desktop/fanfanman/UdaicityAI/notes/2017-07-13-Note-1.md",
+		"/C/Users/april/Desktop/fanfanman/fanfanman.github.io/_posts/2017-07-19-Computer-Vision-Note-11.md",
+		"/C/Users/april/Desktop/fanfanman/fanfanman.github.io/_posts/2017-07-16-Computer-Vision-Note-10.md",
+		"/C/Users/april/Desktop/fanfanman/fanfanman.github.io/_posts/2017-07-12-Computer-Vision-Note-9.md",
+		"/C/Users/april/Desktop/fanfanman/fanfanman.github.io/_posts/2017-07-07-Computer-Vision-Note-8.md",
+		"/C/Users/april/Desktop/fanfanman/fanfanman.github.io/_posts/2017-07-08-Disqus-Setup.md",
+		"/C/Users/april/Desktop/fanfanman/fanfanman.github.io/_layouts/default.html",
+		"/C/Users/april/Desktop/fanfanman/fanfanman.github.io/_includes/disqus.html",
+		"/C/Users/april/Desktop/fanfanman/fanfanman.github.io/_posts/2017-07-02-Computer-Vision-Note-7.md",
+		"/C/Users/april/Desktop/fanfanman/fanfanman.github.io/_posts/2017-07-01-Computer-Vision-Note-6.md",
+		"/C/Users/april/Desktop/fanfanman/fanfanman.github.io/_posts/2017-06-29-Computer-Vision-Note-5.md",
+		"/C/Users/april/Desktop/fanfanman/newposts/2017-06-29-Computer-Vision-Note-5.md",
+		"/C/Users/april/Desktop/fanfanman/fanfanman.github.io/_posts/2017-05-26-Computer-Vision-4.md",
+		"/C/Users/april/Desktop/fanfanman/newposts/2017-05-26-Computer-Vision-4.md",
+		"/C/Users/april/Desktop/fanfanman/newposts/2017-05-25-Computer-Vision-3.md",
+		"/C/Users/april/Desktop/fanfanman/newposts/2017-05-18-Computer-Vision-Note-1.md",
+		"/C/Users/april/Desktop/fanfanman/newposts/2017-05-22-Computer-Vision-Note-2.md",
+		"/C/Users/april/Desktop/fanfanman/fanfanman.github.io/_posts/2016-11-07-Learning-note-1.md",
+		"/C/Users/april/Desktop/fanfanman/fanfanman.github.io/_posts/2016-11-06-Starting-to-learn-computer-graphics.md",
+		"/C/Users/april/Desktop/fanfanman/fanfanman.github.io/_posts/2016-11-26-deleted-code.md",
+		"/Z/www/index.html",
+		"/Z/www/courses.html",
+		"/Z/www/teaching.html",
+		"/Z/www/resources.html",
+		"/Z/www/research.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"script"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "notes.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4411,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4411,
+								4411
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2217.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/tweets/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 265,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								264,
+								264
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/tweets/forms.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 120,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								120,
+								120
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/tweets/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1086,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								456,
+								456
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 71.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 53.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "tweetme.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 250.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

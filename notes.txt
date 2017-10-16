@@ -1,0 +1,118 @@
+Video time: 1-9: 117 min
+10-20: 77 min
+
+##########################################
+	Chapter 0 Initialization
+##########################################
+Steps:
+1. virtualenv --python=python.exe tweetme .
+	(to install virtualenv in current dir)
+2. .\Scripts\activate
+3. pip install django==1.11.6
+4. django-admin startproject tweetme
+5. python manage.py migrate
+6. python manage.py runserver
+7. python manage.py createsuperuser
+	(username: april, pwd: zhangfan)
+
+
+#########################################
+	Chapter 1 Settings
+#########################################
+Settings:
+1. create settings folder under root dir
+2. create __init__, base, local, production.py
+3. paste setting.py into them
+4. change debug to false in production.py
+5. add one more path into base_dir
+6. delete setting.py
+7. edit __init__.py to import these files
+(reason: we want to separate local test and production)
+8. change local.py, add STATIC_ROOT
+   STATIC_ROOT = os.path...,
+   STATICFILES_DIRS = [...] sth copied from doc
+9. create static-storage in root folder (scr), and create
+   static-serve into one folder before root
+9. change urls.py to serve static-serve, as in doc
+(reason: put admin static files into upper folder
+, and to let urls to display them. These can separate
+different url files for security)
+
+Views:
+1. create views.py under settings
+2. under views.py write some functions of view homepage
+3. edit urlpatterns in urls.py: to map empty to home.html
+4. under local.py edit TEMPLATES list, add templates 
+   folder in 'DIRS' list
+5. create templates folder under src root folder
+6. create home.html template in templates folder
+
+Bootstrap:
+1. go to getbootstrap.com, get default html page
+2. get cdn css and javascript links and change them 
+   in html webpage. and comment out css original one.
+(reason to use bootstrap, things would be cached, such that
+the pages are loaded faster.)
+3. download bootstrap
+4. copy three subfolders of bootstrap into static-storage
+5. create bootstrap in static-storage
+6. copy three subfolders of bootstrap in this new folder
+7. python manage.py collectstatic
+8. in home.html file, add to head: {% load static %}
+9. edit css and js lines, to be href="{% static '...' %}"
+
+
+#######################################
+	Chapter 2 Building Apps
+#######################################
+Models:
+1. python manage.py startapp tweets
+2. change models.py to create tweets model(database):
+   class tweet(models.Model): cont = models...
+3. Edit settings local.py, add it to INSTALLED_APPS
+4. Everytime changes made to models, we need to do:
+   python manage.py makemigrations;
+   python manage.py migrate
+5. Since we've added models, we need to edit admin:
+   in admin.py, add: from .models import Tweet
+   admin.site.register(Tweet)
+   so that Tweet(db) will be displayed in admin site
+6. In order to add model description, we add:
+   def __str__(self): return str(self.attribute)
+7. In order to relate tweets to users, we add:
+   user = models.ForeignKey(settings.AUTH_USER_MODEL, default=1), and it sets any tweets related to admin
+
+Function-based Views:
+1. user actions: create, retrieve, update, delete
+2. In order to create view for individual tweets, do:
+   def tweet_detail_view(request):
+   this is retrieve process.
+3. Add file urls.py to tweets migrations
+4. edit it and import views from views.py
+5. edit overall urls to include tweets/urls
+6. under tweets app, add folder templates. under
+   folder templates, add folder tweets, and under
+   it, add template html files.
+7. In order to query database, in views.py we do
+   from .models import Tweet, and edit functions
+8. retrive by: obj = Tweet.objects.get(id=), and add 
+   it to one dictionary, say context = {"": ...}, and
+   add it to return function dictionary attribute
+9. in list_view.html, we can now display context by
+   querying {{ context.key }}, say {{ object}}
+
+Class-based Views:
+1. Use python inbuilt class to define our view class
+2. class TweetDetailView(DetailView): queryset = ...
+3. change urls.py to include these classes
+4. add template_name in TweetDetailView class
+5. default template for these classes are named as
+   appname_classname.html, so we need to add them in
+   templates/appname
+6. There's a way to see class data by:
+   def get_context_data(self): context=super(class)
+7. can use inbuilt function self.kwargs.get() to 
+   get url pattern.
+
+Model Form:
+1. Under tweets app, add file forms.py
