@@ -2,12 +2,21 @@
 from __future__ import unicode_literals
 
 from django.shortcuts import render
-from django.views.generic import DetailView, ListView
+from django.views.generic import DetailView, ListView, CreateView
 
 from .models import Tweet
+from .forms import TweetModelForm
+from .mixins import FormUserNeededMixin
 
 # Create your views here.
 # create, retrieve, update, delete
+
+# create
+class TweetCreateView(FormUserNeededMixin, CreateView):
+	form_class = TweetModelForm
+	template_name = "tweets/create_view.html"
+	# success_url = "/tweet/create/"
+
 
 # retrieve
 class TweetDetailView(DetailView):

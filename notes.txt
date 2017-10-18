@@ -115,4 +115,22 @@ Class-based Views:
    get url pattern.
 
 Model Form:
-1. Under tweets app, add file forms.py
+1. Model Form: to let users upload information, in
+   tweets app, add forms.py
+2. edit admin.py to add TweetModelAdmin so that
+   this new model can be modified in admin mode.
+3. inside forms.py, we can add validation forms
+4. otherwise, we can also modify models.py to add
+   constraints on database with def clean()
+5. we can also define validator functions in models
+   and add validator into charField
+6. Or we can put all validators into one file.
+
+Create View:
+1. define TweetCreateView function in views.py
+2. edit urls.py to add createview function
+3. link createview to a valid template html
+4. inside createview, we can add builtin functions
+   to validate user authentication or form valid,
+   by using function ErrorList, forms.error...
+5. 
