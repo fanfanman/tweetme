@@ -1,5 +1,6 @@
 Video time: 1-9: 117 min
 10-20: 77 min
+21-30: 79 min
 
 ##########################################
 	Chapter 0 Initialization
@@ -145,4 +146,30 @@ Update View:
 4. We also need to apply userloginrequiredmixin
 
 Delete View:
-1. 
+1. add deleteview class in views.py
+2. edit urls.py to add delete option
+3. edit delete_confirm.html to enable delete function
+
+Reverse URLs
+1. We can name URLs, in settings, we set add tweet's
+   namespace = 'tweet'
+2. we can define get_absolute_url method in model.py
+   the equivalence to success_url method
+
+Advanced Searching:
+1. to enable list view to show searching result,
+   we define get_queryset function under listview
+2. query = self.request.GET.get("name"), and we can
+   present the filtered result in listview
+3. add search_form.html to use anywhere
+4. a more advanced lookup is called Q lookup, we
+   can add q lookup in views.py
+
+Template Inheritance
+1. the base template, base.html in main project/src
+   templates folder
+2. copy base bootstrap page to base.html and change
+   its title to be tweetme.co
+3. change home.html to extend base.html and change
+   block title to inherit super block title
+4. 

@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 from django.core.exceptions import ValidationError
 from django.conf import settings
 from django.db import models
+from django.urls import reverse
 
 # Create your models here.
 from .validators import validate_content
@@ -16,6 +17,9 @@ class Tweet(models.Model):
 
 	def __str__(self):
 		return str(self.content)
+
+	def get_absolute_url(self):
+		return reverse("tweet:detail", kwargs={"pk":self.pk})
 
 	''' example of inbuilt model raiseerror function
 	def clean(self, *args, **kwargs):

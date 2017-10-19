@@ -11,34 +11,25 @@
 			"file": "notes.txt",
 			"settings":
 			{
-				"buffer_size": 5537,
+				"buffer_size": 6469,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/tweets/models.py",
+			"file": "src/templates/base.html",
 			"settings":
 			{
-				"buffer_size": 830,
+				"buffer_size": 1684,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/tweets/views.py",
+			"file": "src/templates/home.html",
 			"settings":
 			{
-				"buffer_size": 1675,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/tweets/mixins.py",
-			"settings":
-			{
-				"buffer_size": 725,
+				"buffer_size": 90,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -78,18 +69,24 @@
 	[
 		"/C/Users/april/Desktop/fanfanman/tweetme",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/templates",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates"
 	],
 	"file_history":
 	[
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/views.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/tweet_list.html",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/search_form.html",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/models.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/mixins.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweetme/urls.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/forms.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/delete_confirm.html",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/urls.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/form.html",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/update_view.html",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/create_view.html",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/urls.py",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/forms.py",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/models.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/admin.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/validators.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/validators.py",
@@ -97,15 +94,11 @@
 		"/C/Users/april/Desktop/purdue/PHYS580/lab8/montecarlo.m",
 		"/C/Users/april/Desktop/purdue/PHYS580/lab8/loop.m",
 		"/C/Users/april/Desktop/purdue/PHYS580/lab8/loop_calculate_field.m",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/views.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/notes.txt",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/tweet_list.html",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/tweet_detail.html",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/detail_view.html",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/list_view.html",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/delete_confirm.html",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/migrations/urls.py",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweetme/urls.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweetme/views.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweetme/settings/local.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/templates/home.html",
@@ -183,7 +176,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -192,15 +185,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5537,
+						"buffer_size": 6469,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5537,
-								5537
+								6469,
+								6469
 							]
 						],
 						"settings":
@@ -210,98 +203,71 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2990.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/tweets/models.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 830,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								322,
-								322
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3820.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "src/tweets/views.py",
+					"buffer": 1,
+					"file": "src/templates/base.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1675,
+						"buffer_size": 1684,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1307,
-								1307
+								375,
+								375
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 812.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/tweets/mixins.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 725,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								471,
-								471
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/templates/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 90,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								90,
+								90
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
