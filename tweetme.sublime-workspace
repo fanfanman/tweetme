@@ -38,7 +38,7 @@
 			"file": "src/tweets/forms.py",
 			"settings":
 			{
-				"buffer_size": 422,
+				"buffer_size": 430,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -279,15 +279,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 422,
+						"buffer_size": 430,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								256,
-								256
+								365,
+								365
 							]
 						],
 						"settings":

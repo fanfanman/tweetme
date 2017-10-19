@@ -133,4 +133,16 @@ Create View:
 4. inside createview, we can add builtin functions
    to validate user authentication or form valid,
    by using function ErrorList, forms.error...
-5. 
+5. We can write validation mixin, besides we can also 
+   import the LoginRequiredLogin to force users to
+   login. Browser can automatically redirect...
+
+Update View:
+1. update view is like a combination of createview and
+   retrieve view, we can still apply updateview model
+2. We do the same as createview
+3. Fuck it, my update buttom never works
+4. We also need to apply userloginrequiredmixin
+
+Delete View:
+1. 

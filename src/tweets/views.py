@@ -2,11 +2,12 @@
 from __future__ import unicode_literals
 
 from django.shortcuts import render
-from django.views.generic import DetailView, ListView, CreateView
+from django.views.generic import DetailView, ListView, CreateView, UpdateView
+from django.contrib.auth.mixins import LoginRequiredMixin
 
 from .models import Tweet
 from .forms import TweetModelForm
-from .mixins import FormUserNeededMixin
+from .mixins import FormUserNeededMixin, UserOwnerMixin
 
 # Create your views here.
 # create, retrieve, update, delete
@@ -16,7 +17,15 @@ class TweetCreateView(FormUserNeededMixin, CreateView):
 	form_class = TweetModelForm
 	template_name = "tweets/create_view.html"
 	# success_url = "/tweet/create/"
+	login_url = '/admin/'
 
+
+# update
+class TweetUpdateView(LoginRequiredMixin, UserOwnerMixin, UpdateView):
+	queryset = Tweet.objects.all()
+	form_class = TweetModelForm
+	template_name = "tweets/update_view.html"
+	success_url = "/tweet/"
 
 # retrieve
 class TweetDetailView(DetailView):
@@ -36,6 +45,9 @@ class TweetListView(ListView):
 		context = super(TweetListView, self).get_context_data(*args, **kwargs)
 		#print(context)
 		return context
+
+# delete
+
 
 
 '''def tweet_detail_view(request, id=1):
