@@ -166,10 +166,26 @@ Advanced Searching:
    can add q lookup in views.py
 
 Template Inheritance
-1. the base template, base.html in main project/src
+1. add base template, base.html in main project/src
    templates folder
 2. copy base bootstrap page to base.html and change
    its title to be tweetme.co
 3. change home.html to extend base.html and change
    block title to inherit super block title
-4. 
+4. change body tag
+5. change all tweets/templates/html to inherit the
+   base.html template
+
+Bootstrap Styling
+1. consult bootstrap media object to present each
+   tweet in a ordered view via media object
+2. concult bootstrap css for inline forms to style
+   up the search form
+3. enable navigation, which is crucial
+4. consult bootstrap component navbar to add navbar
+   customize, and shift search_form.html to navbar
+5. manage tweetdetailview.html, and update list
+   view based on detail view.
+6. edit urls.py to show homepage as tweet home
+   and update tweet urlpatterns to match
+7. 
