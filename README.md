@@ -1,7 +1,9 @@
 # Twitter Mimic Project
-- Powered by Django
-- Bootstrap Framework
-- ...to be added
+- Django (fullstack framework)
+- Bootstrap (frontend framework)
+- Django REST (django api framework)
+- jQuery (javascript library)
+- ajax (jquery asynchonous function)
 
 ### Update October 18th
 - Finished Views, Models modules of Django framework
@@ -9,6 +11,16 @@
 - 33% Completed
 
 ### Update October 19th
-- Improving Templates module of Django framework by querying Bootstrap
+- Improved Templates module of Django framework by querying Bootstrap
 - Enabled Search function of tweets, which is filtering
 - 38% Completed
+
+### Update October 20th
+- Finished inheritance of template modules
+- Adopted REST framework
+- Added REST serializers and updated user serializer
+- Overwrote Django search/create/update functions with Ajax
+- 52% Completed
+
+### Update October 21st
+- To be continued...

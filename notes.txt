@@ -1,6 +1,7 @@
 Video time: 1-9: 117 min
 10-20: 77 min
 21-30: 79 min
+31-40: 72 min
 
 ##########################################
 	Chapter 0 Initialization
@@ -188,4 +189,54 @@ Bootstrap Styling
    view based on detail view.
 6. edit urls.py to show homepage as tweet home
    and update tweet urlpatterns to match
-7. 
+7. edit tweetlist to add in textarea to add tweet
+8. edit tweetmodelform to overwrite content field
+   to enable tweeting on homepage with textarea
+9. instead of textarea, we can also use crispy
+   forms to add new tweets
+
+Django Tests
+1. we can define test cases in tests.py
+2. run python manage.py test to test testcases
+
+Django Rest Framework
+1. install rest, and add into INSTALLED_APPS
+2. run python manage.py migrate to combine
+3. under tweets folder, add folder api
+4. in api folder, add __init__.py, views.py and
+   serializers.py, urls.py
+5. copy tweets/urls.py to api/urls.py
+6. edit settings/urls.py to add api url
+
+Django Rest Serializers
+1. edit serializers.py to add modelserializer
+2. edit urls to direct to api/urls
+3. this api will be customized for ajax
+
+Django User Display Serializer
+1. in main project, startapp accounts
+2. create folder api, and create init files
+3. in serializers.py define user public disply
+   serializer with name and username...
+4. register app in base.py, etc...
+5. import user serializer into api/serializer
+5. This should enable us to view user info
+   related to content in api/tweet/
+
+Ajax
+1. purpose: instead of view detail, we want 
+   ajax to grab from backend and replace part
+   of the data on page
+2. in tweet_list.html, we add in ajax func
+   which enables dynamic grab of tweets, most
+   javascript functions
+3. then we get rid of original python func
+4. set up jquery for search module
+5. set up jquery for create/update module
+6. set up jquery to grab form data
+7. add tweetcreateapiview to enable create
+   view display change on frontend only, so
+   it matches with our former setting
+
+Asynchonizing
+1. 

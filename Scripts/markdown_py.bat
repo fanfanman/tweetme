@@ -1,0 +1,1 @@
+@"c:\users\april\desktop\fanfanman\tweetme\scripts\python.exe" "c:\users\april\desktop\fanfanman\tweetme\Scripts\markdown_py" %*
