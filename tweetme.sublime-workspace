@@ -3,6 +3,14 @@
 	{
 		"selected_items":
 		[
+			[
+				"seri",
+				"serializer_class"
+			],
+			[
+				"Tweet",
+				"TweetModelSerializer"
+			]
 		]
 	},
 	"buffers":
@@ -11,16 +19,16 @@
 			"file": "notes.txt",
 			"settings":
 			{
-				"buffer_size": 7055,
+				"buffer_size": 8730,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/tweets/urls.py",
+			"file": "src/tweets/api/views.py",
 			"settings":
 			{
-				"buffer_size": 611,
+				"buffer_size": 802,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -64,31 +72,42 @@
 	[
 		"/C/Users/april/Desktop/fanfanman/tweetme",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweetme",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/api",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets"
 	],
 	"file_history":
 	[
+		"/C/Users/april/Desktop/fanfanman/tweetme/README.md",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/tweet_list.html",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/api/serializers.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/api/urls.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/form.html",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/views.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/templates/base.html",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/api/serializers.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweetme/urls.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/api/views.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweetme/settings/base.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweetme/settings/local.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweetme/settings/production.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/api/__init__.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/api/__init__.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/tests.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/forms.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/urls.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/create_view.html",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/tweet_detail.html",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/templates/navbar.html",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/tweet_list.html",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/templates/base.html",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/detail_view.html",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/search_form.html",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/create_view.html",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/delete_confirm.html",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/list_view.html",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/update_view.html",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/templates/home.html",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/views.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/models.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/mixins.py",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/forms.py",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/urls.py",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/form.html",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/admin.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/validators.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/validators.py",
@@ -99,13 +118,10 @@
 		"/C/Users/april/Desktop/fanfanman/tweetme/notes.txt",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/migrations/urls.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweetme/views.py",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweetme/settings/local.py",
 		"/C/Users/april/Downloads/wire3d_demo.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/static-storage/static/css/custom.css",
 		"/C/Users/april/Desktop/purdue/PHYS580/lab7/capacitor_Jacobi.m",
 		"/C/Users/april/Desktop/purdue/PHYS580/lab7/capacitor_update_Jacobi.m",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweetme/settings/production.py",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweetme/settings/base.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweetme/settings/__init__.py",
 		"/C/Users/april/Desktop/purdue/PHYS580/lab6/hyperion.m",
 		"/C/Users/april/Desktop/purdue/PHYS580/lab5/two_planets_simulation.m",
@@ -183,15 +199,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7055,
+						"buffer_size": 8730,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7055,
-								7055
+								8730,
+								8730
 							]
 						],
 						"settings":
@@ -201,7 +217,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3874.0,
+						"translation.y": 5144.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -209,27 +225,27 @@
 				},
 				{
 					"buffer": 1,
-					"file": "src/tweets/urls.py",
+					"file": "src/tweets/api/views.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 611,
+						"buffer_size": 802,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								214,
-								214
+								626,
+								626
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": 5.0,
+						"translation.y": 163.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
