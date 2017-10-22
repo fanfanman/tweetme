@@ -237,6 +237,82 @@ Ajax
 7. add tweetcreateapiview to enable create
    view display change on frontend only, so
    it matches with our former setting
+8. update tweetlistview to prepend new posts
+   to the front of all posts
 
-Asynchonizing
+Misc jQuery functions
+1. add jQuery function to append charleft
+2. define keyup function to catch add char
+   events and show charsleft num
+3. in submit form, change logic so that tweet
+   too long won't be sent to db
+4. in base.html add jquery function to enable
+   auto search based on timer, timeout
+
+Load More
+1. Pagination: turn into multiple pages
+2. under api folder, create pagination.py
+3. edit StandardResultsPagination class
+   and add it into views.py
+4. under tweetlistview, modify function to
+   display proper result
+5. add nexttweeturl var to display data.next
+6. add loadmore buttom
+
+User Profile
+1. set up accounts app like tweets app
+2. add userdetailview in accounts/views.py
+3. add urls.py the same as tweets/urls.py
+4. add path to tweetme main project urls.py
+5. add user_detail.html template in accounts
+6. copy tweetsdetail.html to userdetail.html
+7. translate url format to contain username
+
+Profile API
+1. Update profile serializer to include
+   url attribute (username)
+2. in tweetlist.html add user profile link
+3. edit setting/url to allow home/username
+
+User Profile Model
+1. to add followers and following
+2. edit accounts/models.py add userprofile
+3. display followers and followed_by in 
+   user_detail.html
+4. In userprofile, user.profile gives me
+   the profile, while user.profile.following
+   gives users I followed, user.followed_by
+   gives users following me, this is how
+   manytomany works
+5. let's create more users and try, new
+   user: fanfan, django123
+6. add followers count under profile name
+7. create userprofilemanager to redefine all
+   method, in get_queryset, if self.instance
+   which is #user itself exists, then exclude
+   it and return new qs
+8. update userprofile to get less following
+   users, to exclude user itself
+
+Toggle Follow
+1. to enable click on buttom and follow user
+2. create userfollowview class in views.py
+   it enables us to follow/unfollow
+3. add userfollowview into urls.py
+4. add a buttom to follow/unfollow in user
+   detail html
+
+Model Manager
+1. add toggle_follow method in usermanager
+   to follow in database
+2. add is_following method to check whether
+   two users follow each other
+3. in userdetailview add function to return
+   is_following information
+4. edit detailviewhtml to show follow or
+   unfollow different buttoms
+5. add function get_user_url to replace
+   link in detailview html
+
+Signals
 1. 

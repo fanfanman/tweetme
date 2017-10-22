@@ -23,4 +23,10 @@
 - 52% Completed
 
 ### Update October 21st
-- To be continued...
+- Enabled autosearch and showed chars left
+- Applied Pagination feature to allow multiple page view and load more
+- Added Accounts app to store user profile
+- Modified model and views to enable multiple user relation and follow/unfollow toggle
+- Applied Django view manager to manage multi-user relations
+- 65% Completed
+- let's stop for a while, have McDonalds and continue at home

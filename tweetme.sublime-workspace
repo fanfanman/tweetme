@@ -72,10 +72,7 @@
 	[
 		"/C/Users/april/Desktop/fanfanman/tweetme",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/api",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets"
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets"
 	],
 	"file_history":
 	[
@@ -217,7 +214,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5144.0,
+						"translation.y": 5236.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
