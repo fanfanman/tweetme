@@ -315,4 +315,33 @@ Model Manager
    link in detailview html
 
 Signals
+1. When a signal come in, we want to get
+   or create a user profile
+2. in models.py add post_save method, which
+   if a new user packet is sent in, we do
+   create a new user profile in accounts in
+   admin/accounts/database
+3. we can test whether it works in tests.py
+
+Add followingaccount tweets
+1. in tweets/api/views.py, we filter through
+   the users that we follow, and show their
+   posts in particular
+2. add qs2 to include my tweets
+3. combine q1|qs2
+
+HashTag
+1. in tweet_list.html add jQuery to detect
+   hashtag and add hashlinks to them
+2. make a new app for hashtags
+3. create hashtag model
+4. register hashtag model in admin
+4. add get hashtag method to filter and 
+   get all posts related to one hashtag
+5. register hashtag app in settings.py
+6. copy tag_view.html as tweet_list.html
+7. add hashtag url to urls.py
+8. add geturl method in hashtag app
+
+Retweet
 1. 

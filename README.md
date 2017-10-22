@@ -30,3 +30,9 @@
 - Applied Django view manager to manage multi-user relations
 - 65% Completed
 - let's stop for a while, have McDonalds and continue at home
+
+### Update October 22nd
+- Fixed home page to show only following tweets
+- Introduced Hashtag feature
+- 72% Compelted, still a long way to go
+- 
