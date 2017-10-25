@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"user",
+				"user_profile"
+			],
+			[
 				"User",
 				"UserProfile"
 			],
@@ -47,7 +51,7 @@
 			"file": "notes.txt",
 			"settings":
 			{
-				"buffer_size": 11177,
+				"buffer_size": 12053,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -56,16 +60,16 @@
 			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 1147,
+				"buffer_size": 1292,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/accounts/models.py",
+			"file": "src/hashtags/models.py",
 			"settings":
 			{
-				"buffer_size": 1618,
+				"buffer_size": 535,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -109,38 +113,40 @@
 	[
 		"/C/Users/april/Desktop/fanfanman/tweetme",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/api",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/templates",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/templates/accounts",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweetme",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates"
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/hashtags",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/hashtags/templates",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/hashtags/templates/hashtags",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets"
 	],
 	"file_history":
 	[
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/views.py",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/templates/accounts/user_detail.html",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/models.py",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/urls.py",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/admin.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweetme/urls.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/tweet_list.html",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/hashtags/templates/hashtags/tag_view.html",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/hashtags/models.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/hashtags/views.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweetme/settings/production.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweetme/settings/local.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweetme/settings/base.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/hashtags/admin.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/api/views.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/models.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/tests.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/README.md",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/views.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/templates/accounts/user_detail.html",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/urls.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/admin.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/api/serializers.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/models.py",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/api/views.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/templates/base.html",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/api/pagination.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/search_form.html",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/forms.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/form.html",
-		"/C/Users/april/Desktop/fanfanman/tweetme/README.md",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/api/serializers.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/api/urls.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/views.py",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweetme/settings/base.py",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweetme/settings/local.py",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweetme/settings/production.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/api/__init__.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/api/__init__.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/tests.py",
@@ -246,15 +252,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11177,
+						"buffer_size": 12053,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11165,
-								11165
+								12053,
+								12053
 							]
 						],
 						"settings":
@@ -264,7 +270,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 7685.0,
+						"translation.y": 7908.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -276,15 +282,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1147,
+						"buffer_size": 1292,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1085,
-								1085
+								795,
+								795
 							]
 						],
 						"settings":
@@ -292,7 +298,7 @@
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 523.0,
+						"translation.y": 422.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -300,28 +306,27 @@
 				},
 				{
 					"buffer": 2,
-					"file": "src/accounts/models.py",
+					"file": "src/hashtags/models.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1618,
+						"buffer_size": 535,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1346,
-								1346
+								353,
+								353
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 768.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,

@@ -34,5 +34,8 @@
 ### Update October 22nd
 - Fixed home page to show only following tweets
 - Introduced Hashtag feature
-- 72% Compelted, still a long way to go
-- 
+- 72% Completed, still a long way to go
+
+### Update October 24th
+- Introduced retweet feature
+- 76% Completed

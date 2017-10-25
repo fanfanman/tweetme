@@ -344,4 +344,14 @@ HashTag
 8. add geturl method in hashtag app
 
 Retweet
-1. 
+1. make a parent attribute in tweet model
+2. add retweetview to tweets to enable user
+   to retweet, and show parent tweet
+3. in serializer, add method to get parent
+   tweet object
+4. change listview format to show whether
+   a tweet is retweeted
+5. update listview link to retweet in the
+   same page, and update database to forbid
+   retweeting again and again
+6. 

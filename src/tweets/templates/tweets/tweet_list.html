@@ -28,11 +28,17 @@ $(document).ready(function(){
 		})
 	}
 
-	function attachTweet(tweetValue, prepend){
+	function attachTweet(tweetValue, prepend, retweet){
 		var tweetContent = tweetValue.content;
 		var dateDisplay = tweetValue.date_display;
 		var tweetUser = tweetValue.user;
-		var tweetFormattedHtml = "<div class=\"media\"><div class=\"media-body\">" + tweetContent + "<br/> via <a href='" + tweetUser.url + "'>"+ tweetUser.username + "</a> | " + dateDisplay + " | " + "<a href='#'>View</a>"+ "</div></div><hr/>"
+		var tweetFormattedHtml;
+		if (retweet && tweetValue.parent) {
+			var mainTweet = tweetValue.parent
+			tweetFormattedHtml = "<div class=\"media\"><div class=\"media-body\"><span class='grey-color'>Retweet via " + tweetUser.username + " on " + dateDisplay + "</span><br/>" + mainTweet.content + "<br/> via <a href='" + mainTweet.user.url + "'>"+ mainTweet.user.username + "</a> | " + mainTweet.date_display + " | " + "<a href='/tweet/" + mainTweet.id + "'>View</a> | " + "<a href='/tweet/" + tweetValue.id + "/retweet/'>Retweet</a>" + "</div></div><hr/>"
+		} else {
+			tweetFormattedHtml = "<div class=\"media\"><div class=\"media-body\">" + tweetContent + "<br/> via <a href='" + tweetUser.url + "'>"+ tweetUser.username + "</a> | " + dateDisplay + " | " + "<a href='/tweet/" + tweetValue.id + "'>View</a> | "+ "<a href='/tweet/" + tweetValue.id + "/retweet/'>Retweet</a>"+ "</div></div><hr/>"
+		}
 
 		if (prepend == true) {
 			$("#tweet-container").prepend(tweetFormattedHtml)
@@ -48,7 +54,11 @@ $(document).ready(function(){
 			// tweets exist, parse and display them
 		$.each(tweetList, function(key, value){
 				var tweetKey = key;
-				attachTweet(value)
+				if (value.parent) {
+					attachTweet(value, false, true)
+				} else {
+					attachTweet(value)
+				}
 			})
 		}
 	}
