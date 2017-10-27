@@ -354,4 +354,33 @@ Retweet
 5. update listview link to retweet in the
    same page, and update database to forbid
    retweeting again and again
-6. 
+6. edit api view to show error information
+
+Parse Username
+1. edit tweetlist html to enable tagging
+   feature to @ some user
+2. edit models.py to add function post and
+   save, to notify users of @ tweet
+
+Custom Signal
+1. in hashtag app, import signal function
+2. in tweet model, edit post save method
+   to send hashtag info to hashtag model
+3. in hashtag model, create function to 
+   receive new hashlist and create them in
+   hashtag database
+4. modify tweetlist ajax and move it to 
+   base.html to load it anywhere
+5. modify tweetapiview to disallow other
+   users to retweet in another's homepage
+
+Like Buttom
+1. add attribute liked in tweet/models.py
+2. in api/views, add like toggle view
+3. in api/urls add liketoggleview into url
+4. in base.html modify javascript to allow
+   liked and unliked ajax view
+5. modify tweet serializer to add like count
+
+Reply Tweet
+1. 

@@ -39,3 +39,8 @@
 ### Update October 24th
 - Introduced retweet feature
 - 76% Completed
+
+### Update October 26th
+- Added function to receive and add hashtags into database
+- Introduced like/unlike feature
+- 85% Completed
