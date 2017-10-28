@@ -383,4 +383,9 @@ Like Buttom
 5. modify tweet serializer to add like count
 
 Reply Tweet
-1. 
+1. in models add reply boolean
+2. in serializers add reply field
+3. change js button about reply to display
+4. add bootstrap reply-modal function to let
+   users reply on focus
+5. 

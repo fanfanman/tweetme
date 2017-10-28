@@ -1,4 +1,4 @@
-# Twitter Mimic Project
+# Mini Twitter
 - Django (fullstack framework)
 - Bootstrap (frontend framework)
 - Django REST (django api framework)
@@ -44,3 +44,7 @@
 - Added function to receive and add hashtags into database
 - Introduced like/unlike feature
 - 85% Completed
+
+### Update October 28th
+- Introduced Reply feature
+- 89% Completed
