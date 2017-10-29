@@ -48,8 +48,9 @@
 ### Update October 28th
 - Introduced Reply feature
 - Improved search function to display relevant tweets and their replies
-- 95% Completed
+- Introduced Recommendation feature
+- Added Login/Logout/Register pages
+- Completed!!
 
 ### Some notes
 - Diff between serializer and models: model defines which data to store in backend database; serializer defines which data to grab from backend; ajax read from api serializer and render data into pages
-- 

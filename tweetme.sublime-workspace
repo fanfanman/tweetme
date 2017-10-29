@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"LOGIN",
+				"LOGIN_REDIRECT_URL"
+			],
+			[
+				"User",
+				"UserRegisterForm"
+			],
+			[
+				"Search",
+				"SearchTweetAPIView"
+			],
+			[
+				"date",
+				"date_display"
+			],
+			[
 				"parsed",
 				"parsed_hashtags_receiver"
 			],
@@ -18,10 +34,6 @@
 			[
 				"user",
 				"user_profile"
-			],
-			[
-				"User",
-				"UserProfile"
 			],
 			[
 				"UserProfile",
@@ -63,7 +75,7 @@
 			"file": "notes.txt",
 			"settings":
 			{
-				"buffer_size": 13290,
+				"buffer_size": 14062,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -72,16 +84,7 @@
 			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 1492,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/templates/base.html",
-			"settings":
-			{
-				"buffer_size": 9096,
+				"buffer_size": 1911,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -124,22 +127,45 @@
 	"expanded_folders":
 	[
 		"/C/Users/april/Desktop/fanfanman/tweetme",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/api",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates"
+		"/C/Users/april/Desktop/fanfanman/tweetme/src"
 	],
 	"file_history":
 	[
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/api/views.py",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/api/serializers.py",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/api/urls.py",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/models.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/templates/registration/login.html",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/views.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/templates/navbar.html",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweetme/settings/base.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweetme/settings/local.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweetme/settings/production.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/views.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/forms.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweetme/urls.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/templates/accounts/user_register_form.html",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/urls.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/templates/accounts/login.html",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/tweet_list.html",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/templates/accounts/user_detail.html",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/templatetags/recommended.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/templates/accounts/snippets/recommend.html",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/templates/accounts/snippets/recommended.html",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/templatetags/__init__.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/models.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/templates/base.html",
+		"/C/Users/april/Desktop/fanfanman/tweetme/README.md",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/hashtags/api/views.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/hashtags/templates/hashtags/tag_view.html",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/hashtags/api/__init__.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/templates/search.html",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/api/views.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweetme/views.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/search_form.html",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/models.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/api/serializers.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/tweet_detail.html",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/api/urls.py",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/templates/reply-modal.html",
+		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/form.html",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/api/urls.py",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweetme/urls.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/hashtags/models.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/hashtags/signals.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/hashtags/tests.py",
@@ -148,32 +174,18 @@
 		"/C/Users/april/Desktop/purdue/PHYS580/lab9/rw2d.m",
 		"/C/Users/april/Desktop/fanfanman/tweetme/notes.txt",
 		"/C/Users/april/Desktop/purdue/PHYS580/lab9/generate_rw.m",
-		"/C/Users/april/Desktop/fanfanman/tweetme/README.md",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/views.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/urls.py",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/hashtags/templates/hashtags/tag_view.html",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/hashtags/views.py",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweetme/settings/production.py",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweetme/settings/local.py",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweetme/settings/base.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/hashtags/admin.py",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/models.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/tests.py",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/views.py",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/urls.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/admin.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/api/serializers.py",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/templates/base.html",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/api/pagination.py",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/search_form.html",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/forms.py",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/form.html",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/api/__init__.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/api/__init__.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/tests.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/create_view.html",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/tweet_detail.html",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/templates/navbar.html",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/detail_view.html",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/delete_confirm.html",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/templates/tweets/list_view.html",
@@ -188,7 +200,6 @@
 		"/C/Users/april/Desktop/purdue/PHYS580/lab8/loop.m",
 		"/C/Users/april/Desktop/purdue/PHYS580/lab8/loop_calculate_field.m",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/migrations/urls.py",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweetme/views.py",
 		"/C/Users/april/Downloads/wire3d_demo.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/static-storage/static/css/custom.css",
 		"/C/Users/april/Desktop/purdue/PHYS580/lab7/capacitor_Jacobi.m",
@@ -233,7 +244,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 156.0,
 		"where_history":
 		[
 		]
@@ -271,15 +282,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13290,
+						"buffer_size": 14062,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13126,
-								13126
+								14062,
+								14062
 							]
 						],
 						"settings":
@@ -289,7 +300,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 8897.0,
+						"translation.y": 9163.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -301,15 +312,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1492,
+						"buffer_size": 1911,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1492,
-								1492
+								1693,
+								1693
 							]
 						],
 						"settings":
@@ -317,40 +328,10 @@
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 754.0,
+						"translation.y": 1104.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/templates/base.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9096,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5178,
-								5178
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3619.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
 					"type": "text"
 				}
 			]

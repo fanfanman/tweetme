@@ -395,3 +395,16 @@ Reply Tweet
 7. show replies under a tweet
 8. update single detail view of a tweet to
    show it and its children replies
+
+Recommended User
+1. define recommended users in account app
+2. add inclusion tag (custom templatetag)
+   in html to show rec users
+
+Authentication Views
+1. build a login page with builtin funcs
+2. add auth url in tweetme app
+3. add login.html
+4. add register.html from django builtin
+5. in base settings, add login_redirect
+   and logout_redirect
