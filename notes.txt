@@ -388,4 +388,10 @@ Reply Tweet
 3. change js button about reply to display
 4. add bootstrap reply-modal function to let
    users reply on focus
-5. 
+5. associate reply-modal form to reply button
+   to allow changing to db
+6. the more functions there are, the more
+   fixings there would be
+7. show replies under a tweet
+8. update single detail view of a tweet to
+   show it and its children replies

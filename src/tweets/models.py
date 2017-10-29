@@ -25,7 +25,8 @@ class TweetManager(models.Manager):
 			).filter(
 				timestamp__year = timezone.now().year,
 				timestamp__month = timezone.now().month,
-				timestamp__day = timezone.now().day
+				timestamp__day = timezone.now().day,
+				reply=False
 				)
 		if qs.exists():
 			return None
@@ -67,6 +68,18 @@ class Tweet(models.Model):
 
 	class Meta:
 		ordering = ['-timestamp']
+
+	def get_parent(self):
+		the_parent = self
+		if self.parent:
+			the_parent = self.parent
+		return the_parent
+
+	def get_children(self):
+		parent = self.get_parent()
+		qs = Tweet.objects.filter(parent=parent)
+		qs_parent = Tweet.objects.filter(pk=parent.pk)
+		return (qs | qs_parent)
 
 	''' example of inbuilt model raiseerror function
 	def clean(self, *args, **kwargs):
