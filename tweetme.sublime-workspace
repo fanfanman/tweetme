@@ -72,19 +72,10 @@
 	"buffers":
 	[
 		{
-			"file": "notes.txt",
+			"file": "/C/Users/april/Desktop/fanfanman/meanstack/note.txt",
 			"settings":
 			{
-				"buffer_size": 14062,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "README.md",
-			"settings":
-			{
-				"buffer_size": 1911,
+				"buffer_size": 848,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -126,11 +117,29 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/april/Desktop/fanfanman/tweetme",
-		"/C/Users/april/Desktop/fanfanman/tweetme/src"
+		"/C/Users/april/Desktop/fanfanman/distributedsys",
+		"/C/Users/april/Desktop/fanfanman/meanstack"
 	],
 	"file_history":
 	[
+		"/C/Users/april/Desktop/fanfanman/meanstack/note.txt",
+		"/C/Users/april/Desktop/fanfanman/distributedsys/2017-12-12-Cloud-Computing-Concepts1-note3.md",
+		"/C/Users/april/Desktop/fanfanman/distributedsys/2017-12-12-Cloud-Computing-Concepts1-note2.md",
+		"/C/Users/april/Desktop/fanfanman/distributedsys/2017-12-09-Cloud-Computing-Concepts1-note1.md",
+		"/C/Users/april/Desktop/fanfanman/fanfanman.github.io/_posts/2017-07-12-Computer-Vision-Note-9.md",
+		"/C/Users/april/Desktop/fanfanman/distributedsys/note1.txt",
+		"/C/Users/april/Desktop/fanfanman/fanfanman.github.io/project.html",
+		"/C/Users/april/Desktop/purdue/PHYS580/lab15/salesman.zip",
+		"/C/Users/april/Desktop/fanfanman/fanfanman.github.io/_posts/2015-12-22-preface-to-this-blog.md",
+		"/C/Users/april/Desktop/fanfanman/fanfanman.github.io/_includes/sidebar.html",
+		"/C/Users/april/Desktop/fanfanman/fanfanman.github.io/Gemfile",
+		"/C/Users/april/Desktop/fanfanman/fanfanman.github.io/_config.yml",
+		"/C/Users/april/Desktop/fanfanman/fanfanman.github.io/_posts/2017-07-19-Computer-Vision-Note-11.md",
+		"/C/Users/april/Desktop/fanfanman/fanfanman.github.io/_layouts/default.html",
+		"/C/Users/april/Desktop/purdue/PHYS580/lab10/gridnormal.m",
+		"/C/Users/april/Desktop/purdue/PHYS580/lab10/make2a.m",
+		"/C/Users/april/Desktop/fanfanman/tweetme/notes.txt",
+		"/C/Users/april/Desktop/fanfanman/tweetme/README.md",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/templates/registration/login.html",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/views.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/templates/navbar.html",
@@ -151,7 +160,6 @@
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/templatetags/__init__.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/accounts/models.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/templates/base.html",
-		"/C/Users/april/Desktop/fanfanman/tweetme/README.md",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/hashtags/api/views.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/hashtags/templates/hashtags/tag_view.html",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/hashtags/api/__init__.py",
@@ -172,7 +180,6 @@
 		"/C/Users/april/Desktop/purdue/PHYS580/lab9/saw2d.m",
 		"/C/Users/april/Desktop/purdue/PHYS580/lab9/generate_saw.m",
 		"/C/Users/april/Desktop/purdue/PHYS580/lab9/rw2d.m",
-		"/C/Users/april/Desktop/fanfanman/tweetme/notes.txt",
 		"/C/Users/april/Desktop/purdue/PHYS580/lab9/generate_rw.m",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/tweets/urls.py",
 		"/C/Users/april/Desktop/fanfanman/tweetme/src/hashtags/views.py",
@@ -213,12 +220,9 @@
 		"/C/Users/april/Desktop/purdue/PHYS580/lab1/uranium.m",
 		"/D/iclicker v7.13-Windows/Classes/PHYS172-17fall-Fan/SessionData/L1708301130.xraw",
 		"/C/Users/april/Desktop/fanfanman/UdaicityAI/notes/2017-07-13-Note-1.md",
-		"/C/Users/april/Desktop/fanfanman/fanfanman.github.io/_posts/2017-07-19-Computer-Vision-Note-11.md",
 		"/C/Users/april/Desktop/fanfanman/fanfanman.github.io/_posts/2017-07-16-Computer-Vision-Note-10.md",
-		"/C/Users/april/Desktop/fanfanman/fanfanman.github.io/_posts/2017-07-12-Computer-Vision-Note-9.md",
 		"/C/Users/april/Desktop/fanfanman/fanfanman.github.io/_posts/2017-07-07-Computer-Vision-Note-8.md",
 		"/C/Users/april/Desktop/fanfanman/fanfanman.github.io/_posts/2017-07-08-Disqus-Setup.md",
-		"/C/Users/april/Desktop/fanfanman/fanfanman.github.io/_layouts/default.html",
 		"/C/Users/april/Desktop/fanfanman/fanfanman.github.io/_includes/disqus.html",
 		"/C/Users/april/Desktop/fanfanman/fanfanman.github.io/_posts/2017-07-02-Computer-Vision-Note-7.md",
 		"/C/Users/april/Desktop/fanfanman/fanfanman.github.io/_posts/2017-07-01-Computer-Vision-Note-6.md",
@@ -254,6 +258,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"only",
 			"multi",
 			"script"
 		],
@@ -273,62 +278,32 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "notes.txt",
+					"file": "/C/Users/april/Desktop/fanfanman/meanstack/note.txt",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14062,
+						"buffer_size": 848,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								14062,
-								14062
+								848,
+								848
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 3,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 9163.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "README.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1911,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1693,
-								1693
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1104.0,
+						"translation.y": 107.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -414,7 +389,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 250.0,
+	"side_bar_width": 255.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
