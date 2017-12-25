@@ -75,7 +75,25 @@
 			"file": "/C/Users/april/Desktop/fanfanman/meanstack/note.txt",
 			"settings":
 			{
-				"buffer_size": 848,
+				"buffer_size": 1748,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/april/Desktop/fanfanman/meanstack/README.md",
+			"settings":
+			{
+				"buffer_size": 770,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/april/Desktop/fanfanman/meanstack/views/node.hbs",
+			"settings":
+			{
+				"buffer_size": 158,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -117,11 +135,17 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/april/Desktop/fanfanman/distributedsys",
-		"/C/Users/april/Desktop/fanfanman/meanstack"
+		"/C/Users/april/Desktop/fanfanman/meanstack",
+		"/C/Users/april/Desktop/fanfanman/meanstack/bin",
+		"/C/Users/april/Desktop/fanfanman/meanstack/routes",
+		"/C/Users/april/Desktop/fanfanman/meanstack/views"
 	],
 	"file_history":
 	[
+		"/C/Users/april/Desktop/fanfanman/meanstack/README.md",
+		"/C/Users/april/Desktop/fanfanman/meanstack/package-lock.json",
+		"/C/Users/april/Desktop/fanfanman/meanstack/routes/app.js",
+		"/C/Users/april/Desktop/fanfanman/meanstack/views/node.hbs",
 		"/C/Users/april/Desktop/fanfanman/meanstack/note.txt",
 		"/C/Users/april/Desktop/fanfanman/distributedsys/2017-12-12-Cloud-Computing-Concepts1-note3.md",
 		"/C/Users/april/Desktop/fanfanman/distributedsys/2017-12-12-Cloud-Computing-Concepts1-note2.md",
@@ -278,7 +302,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -287,15 +311,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 848,
+						"buffer_size": 1748,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								848,
-								848
+								1748,
+								1748
 							]
 						],
 						"settings":
@@ -303,10 +327,66 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 107.0,
+						"translation.y": 750.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/april/Desktop/fanfanman/meanstack/README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 770,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								276,
+								276
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/april/Desktop/fanfanman/meanstack/views/node.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 158,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								73,
+								73
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -389,7 +469,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 255.0,
+	"side_bar_width": 246.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

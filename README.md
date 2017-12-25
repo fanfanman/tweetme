@@ -8,19 +8,19 @@
 ### Update October 18th
 - Finished Views, Models modules of Django framework
 - Enabled Create, Update, Retreive and Delete function of tweets
-- 33% Completed
+- Base completed
 
 ### Update October 19th
 - Improved Templates module of Django framework by querying Bootstrap
 - Enabled Search function of tweets, which is filtering
-- 38% Completed
+- framework completed
 
 ### Update October 20th
 - Finished inheritance of template modules
 - Adopted REST framework
 - Added REST serializers and updated user serializer
 - Overwrote Django search/create/update functions with Ajax
-- 52% Completed
+- Frontend almost completed
 
 ### Update October 21st
 - Enabled autosearch and showed chars left
@@ -28,22 +28,22 @@
 - Added Accounts app to store user profile
 - Modified model and views to enable multiple user relation and follow/unfollow toggle
 - Applied Django view manager to manage multi-user relations
-- 65% Completed
+- User profile completed
 - let's stop for a while, have McDonalds and continue at home
 
 ### Update October 22nd
 - Fixed home page to show only following tweets
 - Introduced Hashtag feature
-- 72% Completed, still a long way to go
+- Hashtag completed, still a long way to go
 
 ### Update October 24th
 - Introduced retweet feature
-- 76% Completed
+- New feature retweet completed
 
 ### Update October 26th
 - Added function to receive and add hashtags into database
 - Introduced like/unlike feature
-- 85% Completed
+- Like unlike feature completed
 
 ### Update October 28th
 - Introduced Reply feature
